@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* HEADER  */
+.header {
+  background-color: darkseagreen;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+#header-img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+/* NAVBAR */
+#navbar {
+  background-color: darkseagreen;
+  overflow: hidden;
+  border: 1px solid whitesmoke;
+}
+
+#navbar a {
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: darkseagreen;
+}
+
+.navbar-fixed {
+  position: fixed;
+  top: 0px;
+}
+
+.explore-btn {
+  background-color: aquamarine; 
+  color: darkcyan;
+}
+
+.explore-btn:hover {
+  background-color: rgb(64, 194, 245);
+  color: white;
+}
+
+.about-me {
+  padding: 30px 0;
+  text-align: justify;
+}
+
+.total-project, .total-student {
+  padding-top: 15px;
+  text-align: center;
+  border: 1px solid rgb(147, 233, 147);
+  border-radius: 10px;
+  background-color: rgb(147, 233, 147);
+}
+
+.progress-bar {
+  background-color: rgb(147, 233, 147);
+  border-radius: 10px;
+  color: black;
+}
+
+.project {
+  border: 1px solid rgb(210, 233, 147);
+  border-radius: 15px;
+  background-color: rgb(210, 233, 147);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.project a {
+  text-decoration: none;
+  color: black;
+}
+
+.latest-post .post {
+  border-radius: 10px;
+  padding: 20px; 
+}
+
+.latest-post .post:hover {
+  background-color: rgb(181, 255, 181);
+}
+
+.latest-post a {
+  text-decoration: none;
+  color: black;
+}
+
+.latest-post img  {
+  width: 100%;
+  border-radius: 10px;
+  height: 190px;
+}
+
+.latest-post p {
+  text-align: justify;
+}
+
+.footer {
+  background-color: darkseagreen;
+  padding: 10px;
+  text-align: justify;
+  color: white;
+}
+
+.accounts a {
+  color: white;
+  text-decoration: none;
+}
+
+.blog {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.blog img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.blog p {
+  text-align: justify;
+}
+
+.blog button {
+  background-color: darkcyan; 
+  color: white;
+}
+
+.blog button:hover {
+  background-color: darkseagreen;
+  color: white;
+}
+
+.sidebar {
+  padding-top: 40px;
+}
+
+.sidebar button {
+  background-color: darkcyan;
+  color: white;
+  border-radius: 0 10px 10px 0;
+}
+
+.sidebar button:hover {
+  background-color: darkseagreen;
+}
+
+.sidebar input[type='text'] {
+  border-radius: 10px;
+}
+
+.post-detail {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.post-detail p {
+  text-align: justify;
+}
+
+.post-detail img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.post-detail span {
+  color: rgb(117, 117, 117);
+}
+
+.post-detail .love-btn {
+  background-color: rgb(253, 89, 204);
+  color: white;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.post-detail .like-btn {
+  background-color: rgb(5, 189, 189);
+  color: white;
+  font-size: large;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+
+.post-detail .cmt-btn {
+  background-color: rgb(231, 169, 10);
+  color: white;
+  font-size: large;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.comment-box {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.comment-box .input-group {
+  margin: 20px 0 20px 20px;
+}
+
+.comment-section {
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.comment-section .row {
+  /* width: 70%; */
+  padding: 0 90px 0 60px;
+  margin-bottom: 20px;
+}
+
+.comment-section img {
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid cadetblue;
+}
+
+/* admin dashboard */
+      
+.sidenav {
+    height: calc(100vh - 56px); /* Subtract height of top navbar */
+    width: 250px;
+    background-color: #343a40;
+    position: fixed;
+    top: 56px; /* Match top navbar height */
+    transition: width 0.3s ease;
+}
+.sidenav a {
+    color: white;
+    text-decoration: none;
+}
+.sidenav a:hover {
+    background-color: #495057;
+    color: turquoise;
+    text-decoration: none;
+}
+.main-content {
+    margin-left: 250px; /* Adjust for sidebar width */
+    margin-top: 56px; /* Adjust for top navbar height */
+    padding: 20px;
+}
+    
